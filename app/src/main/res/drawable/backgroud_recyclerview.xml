@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape>
+            <gradient
+                android:centerX="0.1"
+                android:centerY="0.1"
+                android:endColor="#6485f2"
+                android:gradientRadius="200dp"
+                android:startColor="#c5d9cc"
+                android:type="sweep"
+
+                />
+        </shape>
+    </item>
+
+
+    <item
+        android:id="@+id/second_image"
+        android:left="10dp"
+        android:top="10dp">
+        <bitmap
+            android:gravity="top"
+            android:src="@drawable/bg_australia" />
+
+    </item>
+
+
+</layer-list>

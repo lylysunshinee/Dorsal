@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_shark_blurred"
+    android:orientation="vertical"
+    android:weightSum="10"
+
+    >
+
+    <include
+        android:id="@+id/my_tool_bar"
+        layout="@layout/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imgv_Avata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_avatar_holder" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.75" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/magin"
+        android:layout_marginRight="@dimen/magin"
+        android:layout_weight="1"
+        android:gravity="clip_horizontal"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_user" />
+
+        <EditText
+            android:id="@+id/edt_YourName_SignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_textview"
+            android:gravity="center_horizontal"
+            android:hint="@string/YourName"
+            android:textColor="@color/White"
+            android:textColorHint="@color/TextHint" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/magin"
+        android:layout_marginRight="@dimen/magin"
+        android:layout_weight="1"
+        android:gravity="clip_horizontal"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_email" />
+
+        <EditText
+            android:id="@+id/edt_YourEmail_SignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_textview"
+            android:gravity="center_horizontal"
+            android:hint="@string/YourEmail"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/White"
+            android:textColorHint="@color/TextHint" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/magin"
+        android:layout_marginRight="@dimen/magin"
+        android:layout_weight="1"
+        android:gravity="clip_horizontal"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_lock" />
+
+        <EditText
+            android:id="@+id/edt_Password_SignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_textview"
+            android:gravity="center_horizontal"
+            android:hint="@string/Password"
+            android:inputType="textPassword"
+            android:textColor="@color/White"
+            android:textColorHint="@color/TextHint" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/magin"
+        android:layout_marginRight="@dimen/magin"
+        android:layout_weight="1"
+        android:gravity="clip_horizontal"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_lock" />
+
+        <EditText
+            android:id="@+id/edt_RetypePassword_SignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_textview"
+            android:gravity="center_horizontal"
+            android:hint="@string/Retypepass"
+            android:inputType="textPassword"
+            android:textColor="@color/White"
+            android:textColorHint="@color/TextHint" />
+    </FrameLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5" />
+
+    <Button
+        android:id="@+id/btn_SignUp_Register"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/magin"
+        android:layout_marginRight="@dimen/magin"
+        android:layout_weight="0.75"
+        android:background="@drawable/bg_button"
+        android:text="@string/signup"
+        android:textAllCaps="false"
+        android:textColor="@color/White" />
+
+
+</LinearLayout>

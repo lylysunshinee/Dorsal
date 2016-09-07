@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Dorsal</string>
+    <string name="Forgot">Forgot Password</string>
+    <string name="register">Sign up</string>
+    <string name="loginFace">Facebook Login</string>
+    <string name="login">Login</string>
+    <string name="Password">Password</string>
+    <string name="YourEmail">Your email</string>
+    <string name="YourName">Your name</string>
+    <string name="Retypepass">Retype password</string>
+    <string name="signup">Sign up</string>
+    <string name="verification">We have sent an activation. Please check your email and enter it here.</string>
+    <string name="insercode">Insert code here</string>
+    <string name="done">Done</string>
+    <string name="donotGet">Don\'t get your activation code?</string>
+    <string name="clickhere">Click here to resend</string>
+    <string name="error">không có kết nối internet</string>
+    <string name="menu">Menu</string>
+    <string name="alltime">All Time</string>
+    <string name="last_12">Last 12 hrs</string>
+    <string name="last_24">Last 24 hrs</string>
+    <string name="last_week">Last Week</string>
+    <string name="last_month">Last Month</string>
+</resources>

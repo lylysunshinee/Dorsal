@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_shark_blurred"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <include
+        android:id="@+id/my_tool_bar_verification"
+        layout="@layout/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1.5"
+        android:gravity="center"
+        android:text="@string/verification"
+        android:textColor="@color/White"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/magin"
+        android:layout_marginRight="@dimen/magin"
+        android:layout_weight="1"
+        android:gravity="clip_horizontal"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_key" />
+
+        <EditText
+            android:id="@+id/edt_code_verifi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_textview"
+            android:gravity="center_horizontal"
+            android:hint="@string/insercode"
+            android:maxLines="1"
+            android:textColor="@color/White"
+            android:textColorHint="@color/TextHint" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btn_Done_Verifi"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/magin"
+        android:layout_marginRight="@dimen/magin"
+        android:layout_weight="0.75"
+        android:background="@drawable/bg_button"
+        android:text="@string/done"
+        android:textAllCaps="false"
+        android:textColor="@color/White" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:gravity="center_horizontal"
+        android:text="@string/donotGet"
+        android:textColor="@color/White" />
+
+    <TextView
+        android:id="@+id/txt_resend_verifi"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:gravity="center_horizontal"
+        android:text="@string/clickhere"
+        android:textColor="@color/White" />
+
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Forgot">Forgot Password</string>
+    <string name="Retypepass">Retype password</string>
+    <string name="verification">We have sent an activation. Please check your email and enter it here.</string>
+</resources>
